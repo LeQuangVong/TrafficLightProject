@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\Embedded-interview\Embedded_Project\Microcontroller\8051\7SegmentsLed\TrafficLight\TrafficLight.uvproj
+Project File Date:  05/21/2024
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(2): warning C318: can't open file 'Delay.h'
+MAIN.C(25): warning C206: 'Delay_ms': missing function-prototype
+MAIN.C(25): error C267: 'Delay_ms': requires ANSI-style prototype
+compiling Delay.c...
+..\..\Lib\Delay.c(1): error C318: can't open file '..\..\Lib\Delay.c'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(2): warning C318: can't open file 'Delay.h'
+MAIN.C(25): warning C206: 'Delay_ms': missing function-prototype
+MAIN.C(25): error C267: 'Delay_ms': requires ANSI-style prototype
+compiling Delay.c...
+..\..\Lib\Delay.c(1): error C318: can't open file '..\..\Lib\Delay.c'
+Target not created
